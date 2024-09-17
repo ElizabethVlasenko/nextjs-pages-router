@@ -9,7 +9,7 @@ export async function getServerSideProps({ params }) {
     props: {
       cabin,
     },
-    revalidate: 3600, //Incremental Static Regeneration (ISR)
+    //revalidate: 3600, //Incremental Static Regeneration (ISR)
   };
 }
 
